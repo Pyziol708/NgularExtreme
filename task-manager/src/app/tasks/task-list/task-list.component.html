@@ -1,0 +1,17 @@
+<dx-data-grid
+    id="taskGrid"
+    [dataSource]="tasks"
+    [allowColumnReordering]="true"
+    keyExpr="id"
+>
+    <dxi-column dataField="id" caption="ID"></dxi-column>
+    <dxi-column dataField="title"></dxi-column>
+    <dxi-column dataField="description"></dxi-column>
+    <dxi-column dataField="priority"></dxi-column>
+    <dxi-column dataField="status"></dxi-column>
+    <dxi-column
+        dataField="dueDate"
+        dataType="date"
+        caption="Due date">
+    </dxi-column>
+</dx-data-grid>

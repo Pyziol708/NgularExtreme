@@ -1,0 +1,7 @@
+{
+    "exportall.config.folderListener": [
+        "/task-manager/src/app/core/interfaces",
+        "/task-manager/src/app/shared/services",
+        "/task-manager/src/app/tasks/task-list"
+    ]
+}
